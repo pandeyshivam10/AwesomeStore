@@ -15,7 +15,6 @@ const HomeItems = () => {
           category={item.category}
           image={item.image}
           price={item.price}
-          rating={item.rating}
         />
       ))}
     </div>
