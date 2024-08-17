@@ -42,9 +42,9 @@ const Card: React.FC<CardProps> = ({
         rating,
         quantity: 1,
       });
-      toast.success("Item added to cart");
+      toast.success("This item is now in your cart");
     } else {
-      toast.error("Item already exists in the cart");
+      toast.error("This item is already in your shopping list");
     }
   };
 
